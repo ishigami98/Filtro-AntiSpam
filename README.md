@@ -1,10 +1,21 @@
-# Filtro Antispam en Tiempo Real
+# 🛡️ Filtro Inteligente Antispam en Tiempo Real
 
-Proyecto académico (Aprendizaje Estadístico, UPAO) que detecta y bloquea llamadas
-spam antes de que suene el teléfono, usando un Random Forest reimplementado como
-reglas en Kotlin.
+Proyecto académico desarrollado para el curso de **Aprendizaje Estadístico** (UPAO, 2026). El sistema detecta y bloquea llamadas spam antes de que suene el teléfono, utilizando un modelo de **Random Forest** reimplementado como reglas lógicas en Kotlin.
 
-## Cómo abrir el proyecto
+---
+
+## 🛠️ Funcionalidades Principales
+
+La aplicación móvil se divide en cuatro módulos críticos para la gestión del usuario:
+
+* **📊 Registro:** Panel central con el estado del sistema ("Protegido") e historial de llamadas analizadas.
+* **🚫 Lista Negra:** Gestión proactiva de números restringidos con opción de bloqueo automático o reporte.
+* **⏰ Horario:** Configuración de franjas horarias específicas para el bloqueo automático de números desconocidos.
+* **📈 Estadísticas:** Visualización analítica de llamadas evaluadas, bloqueadas y tendencias de seguridad en los últimos 7 días.
+
+---
+
+## 📥 Cómo abrir el proyecto
 
 1. Abrir Android Studio (Hedgehog o superior) → **Open** → seleccionar la carpeta
    `ProyectoSpamApp`.
@@ -26,7 +37,9 @@ app/src/main/java/com/upao/filtroantispam/
     └── screens/      # Registro, Lista Negra, Horario (contenido real: Fase 4)
 ```
 
-## Fases del proyecto
+---
+
+## 📋 Fases del proyecto
 
 - **Fase 0** ✅ — Notebook con el modelo (Random Forest, 6 variables conocidas
   antes de contestar la llamada). Ver `Fase0_ModeloAntispam.ipynb`.
@@ -48,3 +61,17 @@ app/src/main/java/com/upao/filtroantispam/
 
 `duracion` no se usa para predecir en tiempo real; se reutiliza en el feedback
 loop (RF-05) después de colgar.
+---
+
+### 👥 Integrantes
+
+* Rios Rios, Holger
+* Carhuajulca Zaña, José
+* Flores Rodriguez, Diego
+* García olivares, Junior
+* Diaz Polo, Leonardo
+* Bobadilla Bautista, Edward
+
+*Docente: Sagastegui Chigne, Hernan | Trujillo, 2026*
+
+---
