@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+color azul_principal
+color rojo_alerta
+color verde_seguro
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+string app_name
+style Theme.FiltroAntispam

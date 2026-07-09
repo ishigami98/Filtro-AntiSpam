@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_principal">#FF1B3A6B</color>
+    <color name="rojo_alerta">#FFC62828</color>
+    <color name="verde_seguro">#FF2E7D32</color>
+    <string name="app_name">Filtro Antispam</string>
+    <style name="Theme.FiltroAntispam" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
