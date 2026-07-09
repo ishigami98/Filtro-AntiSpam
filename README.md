@@ -58,8 +58,7 @@ app/src/main/java/com/upao/filtroantispam/
 4. `hora_del_dia`.
 5. `es_numero_corto_o_extrano` — formato atípico (VoIP/spoofing).
 6. `reportes_previos` — reportes de la comunidad.
-
-`duracion` no se usa para predecir en tiempo real; se reutiliza en el feedback
+7. `duracion` no se usa para predecir en tiempo real; se reutiliza en el feedback
 loop (RF-05) después de colgar.
 ---
 
